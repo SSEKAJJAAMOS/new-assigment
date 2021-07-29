@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Module 3 Solution</title>
+</head>
+<body>
+	<header class="nav-header">
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+					<img src="Academo_logo.Png" alt="Academo_logo">
+          <div class="navbar-brand">
+          </div>
+          <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">        
+
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            	<li class="text-center">
+								<a href="#chicken-div"><p class="item">Home</p></a>
+              </li>   
+							<li class="text-center">
+								<a href="#About Us-div"><p class="item">About Us</p></a>
+            	</li>
+	            <li class="text-center">
+		            <a href="#About Us-div"><p class="item">Vision</p></a>					   
+	            </li>
+							<li class="text-center">
+					    	<a href="#About Us-div"><p class="item">Contact Us</p></a>
+							</li>
+							<li class="text-center">
+								<a href="#About Us-div"><p class="item"><i class="fa fa-search"></i></p></a>
+							</li>
+	           	</ul>					
+				</div>           
+        </div>
+    </nav>
+  	</header>
+    <div class="body1"></div>
+	
+	<div class="body2">
+		<div class="formContainer1">
+			<form action="/action_page.php">
+					<div class="box1">				
+							<h2> TIME IN</h2>
+							<p>Attendace login</p>
+							<span class="requiredspan"> *Required</span>
+					</div>
+					<div class="box2">				
+							<label for="name" class="requiredlabel">Name*</label> <br>
+							<input type="text" placeholder="Your answer" id="name" class="form-control">
+							<span class="requiredspan"> *Required</span>
+					</div>
+					<div class="box3">				
+						<div class="body">
+								<h5 class="requiredtime">Time In*</h5>
+								<label for="time_in">Time</label> <br>
+					</div>
+
+								<input type=time min=06:00 max=22:00 name="time_in" id="time_in" required>
+                                <select name="GMT" id="GMT">
+                                    <option value="AM">AM</option>
+                                    <option value="PM">PM</option>
+                                </select>
+							</div>
+					
+
+		</form>
+		</div>
+		<div class="formContainer2">
+			<form action="/action_page.php">
+					<div class="box1">				
+							<h2> TIME OUT</h2>
+							<p>Attendace login</p>
+							<span class="requiredspan"> *Required</span>
+					</div>
+					<div class="box2">				
+							<label for="name" class="requiredlabel">Name*</label> <br>
+							<input type="text" placeholder="Your answer" id="name" class="form-control">
+							<span class="requiredspan"> *Required</span>
+					</div>
+					<div class="box3">				
+							<div class="body">
+								<h5 class="requiredtime">Time In*</h5>
+								<label for="time_in">Time</label> <br>
+
+								<input type=time min=06:00 max=22:00 name="time_in" id="time_in" required>
+                                <select name="GMT" id="GMT">
+                                    <option value="AM">AM</option>
+                                    <option value="PM">PM</option>
+                                </select>
+					</div>
+
+					
+					</div>
+		</form>
+		</div>
+
+		
+	</div>
+</body>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</html
